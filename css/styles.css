@@ -97,7 +97,7 @@ nav li{
 	text-align: center;
 }
 
-#float img{
+#floatlogo{
 	width: 80%;
 	display: block;
 	margin: 0 auto;
@@ -107,9 +107,9 @@ nav li{
 	margin: 0 auto;
 }
 
-form *:not(p):not(button){
+form *:not(p){
 	display: block;
-	margin: 0 0 1rem 0;
+	margin: 0 auto 1rem auto;
 }
 
 button{
@@ -176,10 +176,16 @@ table{
 
 td{
 	margin: 0 1rem;
+}
 
+#float h3{
+	color: white;
+	text-align: center;
+	}
 
-
-
+#load{
+	display: none;
+}
 
 
 
