@@ -4,7 +4,6 @@
 <title></title>
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/scripts.js"></script>
-	<script src="js/notadatabase.js"></script>
 </head>
 <body>	
 		<div id="wrapper">
@@ -23,14 +22,13 @@
 			
 		<div id="contentwrapper">
 		<div id="float">
-			<img src="images/logowhite.png" alt="HPC">
+			<img id="floatlogo" src="images/logowhite.png" alt="HPC">
 
 
 			<p>Big data meets security and efficiency. Your
 			business demands cutting-edge technology and
 			HPC is always one step ahead so you get tried
 			and true solutions for the modern world.</p>
-
 
 			<form>
 				<p>Username</p>
@@ -39,7 +37,7 @@
 				<input type="password" placeholder="Password" name="pw">
 				<button type="submit">Login</button>
 			</form>
-
+			<img id="load" src="images/reload.png"> 
 			</div>
 		</div>
 
@@ -84,16 +82,10 @@
 		</section>
 		
 		<section id="contact">
-			<h2>Contact Us</h2>
-			<div id="formdiv">
-				<form>
-					<p>Your E-Mail</p>
-					<input type="text" name="email" placeholder="E-Mail">
-					<p>Message</p>
-					<input class="textarea" type="text" name="message" placeholder="Type your message here.">
-						<button type="submit">Submit</button>
-				</form>
-			</div>
+			<h2>Contact Us and Support Chat</h2>
+			
+			<h3>support@hpc.com</h3><br>
+			<iframe src='https://minnit.chat/HPC?embed&nickname=' style='border:none;width:90%;height:500px;' allowTransparency='true'></iframe><br><a href='https://minnit.chat/HPC' target='_blank'>HTML5 Chatroom powered by Minnit Chat</a>
 		</section>
 		
 		<footer>
